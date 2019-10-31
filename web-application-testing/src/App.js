@@ -20,7 +20,13 @@ function App() {
 
   return (
     <div className="App">
-
+      <Display balls={balls} strikes={strikes} />
+      <Dashboard
+        balls={balls}
+        setBalls={setBalls}
+        strikes={strikes}
+        setStrikes={setStrikes}
+      />
     </div>
   );
 
