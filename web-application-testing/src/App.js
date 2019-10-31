@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Display from './components/Display';
 import Dashboard from './components/Dashboard';
 
+import './App.css';
 
 function App() {
   const [balls, setBalls] = useState(0);
@@ -27,3 +28,4 @@ function App() {
 
 
 export default App;
+
